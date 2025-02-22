@@ -20,7 +20,7 @@ def htop():
     top_output = subprocess.check_output(['top', '-b', '-n', '1']).decode('utf-8')
     
     # Your name (replace with your actual name)
-    name = "Amarkpython app.pyant"  # Make sure to put your actual name here!
+    name = "Amarkant"  # Make sure to put your actual name here!
     
     return f"""
     <html>
